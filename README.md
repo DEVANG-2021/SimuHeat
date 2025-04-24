@@ -1,8 +1,8 @@
 # SimuHeat
 SimuHeat is a C++ simulation engine developed to model 2D heat diffusion using finite difference methods. The goal is to visualize the heat propagation across a flat surface and analyze thermal distribution patterns over time.
 
-
 ---
+
 
 ## 📌 Features
 
@@ -20,5 +20,32 @@ SimuHeat is a C++ simulation engine developed to model 2D heat diffusion using f
 ```bash
 git clone https://github.com/yourusername/SimuHeat.git
 cd SimuHeat
+```
 
 ### 2. Clone the repository
+```bash
+mkdir build && cd build
+cmake ..
+make
+```
+
+### 3. Run the simulation
+```bash
+./simuheat
+```
+
+## 🧪 Testing
+To execute regression tests:
+```bash
+cd tests/
+./run_all_tests.sh
+```
+
+## 📚 Learning Objectives
+- Demonstrate C++ proficiency in simulation modeling.
+- Explore performance optimization and numerical accuracy.
+- Practice visualization using Gnuplot and data piping.
+- Apply unit testing and regression checks to simulation workflows.
+
+## 👨‍💻 Author
+Devang Parmar
